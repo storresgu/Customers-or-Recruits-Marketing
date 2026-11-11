@@ -1,0 +1,93 @@
+{
+  "base_config": {
+    "commission_rate": 0.1,
+    "contact_budget": 10,
+    "cost_per_contact": 0.005,
+    "customer_churn": 0.02,
+    "distributor_churn": 0.01,
+    "entry_fee": 0.2,
+    "entry_units": 1,
+    "fatigue": 0.1,
+    "fit_weight": 1.0,
+    "fixed_operating_cost": 0.05,
+    "heterogeneity_alpha": 2.0,
+    "heterogeneity_beta": 2.0,
+    "homogeneous_agents": false,
+    "horizon_months": 120,
+    "income_window": 3,
+    "initial_customers": 0,
+    "initial_distributors": 10,
+    "loss_exit_weight": 0.04,
+    "loss_scale": 0.3,
+    "new_entrant_window": 3,
+    "p_personal": 0.3,
+    "p_recruit": 0.04,
+    "p_repurchase": 0.6,
+    "p_retail": 0.08,
+    "population_size": 500,
+    "qualification_enabled": false,
+    "recruiting_weight": 1.0,
+    "recruitment_multiplier": 1.0,
+    "recruitment_share": 0.5,
+    "retail_price": 1.0,
+    "rewiring_p": 0.1,
+    "selling_weight": 1.0,
+    "shock_start_month": 61,
+    "social_degree": 10,
+    "unserved_churn_increment": 0.05,
+    "wholesale_price": 0.7
+  },
+  "experiment_id": "article25_pilot_v01",
+  "master_seed": 20260926,
+  "purpose": "pilot",
+  "replicates": 10,
+  "scenarios": [
+    {
+      "overrides": {
+        "p_repurchase": 0.3,
+        "p_retail": 0.03
+      },
+      "scenario_id": "retail03_repeat30"
+    },
+    {
+      "overrides": {
+        "p_repurchase": 0.8,
+        "p_retail": 0.03
+      },
+      "scenario_id": "retail03_repeat80"
+    },
+    {
+      "overrides": {
+        "p_repurchase": 0.3,
+        "p_retail": 0.12
+      },
+      "scenario_id": "retail12_repeat30"
+    },
+    {
+      "overrides": {
+        "p_repurchase": 0.8,
+        "p_retail": 0.12
+      },
+      "scenario_id": "retail12_repeat80"
+    }
+  ],
+  "schema": "article25-experiment-v1",
+  "shock_multiplier": 0.0,
+  "windows": [
+    {
+      "end": 60,
+      "name": "pre",
+      "start": 49
+    },
+    {
+      "end": 72,
+      "name": "immediate",
+      "start": 61
+    },
+    {
+      "end": 120,
+      "name": "late",
+      "start": 109
+    }
+  ]
+}

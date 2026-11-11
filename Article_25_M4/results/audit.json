@@ -1,0 +1,20 @@
+{
+  "all_preshock_differences_zero_when_defined": true,
+  "bootstrap_note": "Percentile CI for mean paired difference, 20000 whole-pair resamples; exploratory n=10 per scenario. Not a prediction interval.",
+  "code_hash": "c877a6d87a39aed484d8e4b2cc896845bbf42dbd7a821620157b5ad429935766",
+  "completed_branches": 80,
+  "completed_pairs": 40,
+  "design_hash": "1519b2d3eb40827f6a35caf148159fde1d8798ab2d04e7aa85af2f2121a87e43",
+  "files_hash_verified": 1087,
+  "max_cumulative_vs_monthly_cash_error": 2.2737367544323206e-13,
+  "model_version": "0.3.0-m3",
+  "monthly_rows": 9600,
+  "original_registry_unchanged": true,
+  "paired_effect_rows": 360,
+  "participant_rows": 7005,
+  "population_conservation_all_months": true,
+  "raw_bytes": 1854982677,
+  "runtime_seconds": 524.1656012940002,
+  "status": "passed",
+  "zero_postshock_enrollment": true
+}

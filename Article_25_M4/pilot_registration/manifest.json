@@ -1,0 +1,28 @@
+{
+  "code_hash": "c877a6d87a39aed484d8e4b2cc896845bbf42dbd7a821620157b5ad429935766",
+  "completed_pairs": 0,
+  "design_hash": "1519b2d3eb40827f6a35caf148159fde1d8798ab2d04e7aa85af2f2121a87e43",
+  "environment": {
+    "dependencies": {
+      "networkx": "3.7",
+      "numpy": "2.3.5"
+    },
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  },
+  "experiment_id": "article25_pilot_v01",
+  "files_sha256": {
+    "design_resolved.json": "bee2127ed95a3461f4e19a3f35c6f9a857eacceb56cadb0121343edfa34ce12d",
+    "run_registry.json": "4f58e70020ee23aefca25ef2917805dc354a7d0fae3174acad518494bb5df320",
+    "seed_registry.csv": "5e6da504e9186e07cec9f3bf7f39fcd345e8603b2738a05b310e5dbd5ed8dacd"
+  },
+  "model_version": "0.3.0-m3",
+  "planned_branch_trajectories": 80,
+  "planned_pairs": 40,
+  "purpose": "pilot",
+  "rng_schema": "article25-event-rng-v1",
+  "schema": "article25-experiment-v1",
+  "seed_schema": "article25-pair-seed-v1",
+  "spec_version": "0.1",
+  "status": "prepared"
+}

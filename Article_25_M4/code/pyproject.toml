@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "article25-abm"
+version = "0.3.0"
+description = "Article 25: participant outcomes and matched experiments (M3)"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "networkx>=3.4,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
